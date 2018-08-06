@@ -1,0 +1,30 @@
+{
+  "name": "danmeasureconverter",
+  "version": "0.1.0",
+  "description": "converter of units",
+  "main": "dist/source/index.js",
+  "scripts": {
+    "build": "babel source/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniloel/ConverterUnits.git"
+  },
+  "keywords": [
+    "converter",
+    "units"
+  ],
+  "author": "Daniel Tovar <danieldaniyyelda@gmail.com> (https://twitter.com/danieeis)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Daniloel/ConverterUnits/issues"
+  },
+  "homepage": "https://github.com/Daniloel/ConverterUnits#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
