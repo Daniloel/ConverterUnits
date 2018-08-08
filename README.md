@@ -16,7 +16,7 @@ npm install danconverterunits
 
 ```
 import danconverterunits from 'danconverterunits'
-danconverterunits("si","kg","mg",1) //1kg son 1000mg
+danconverterunits('PRESSURE','PSI',10,'PAS') //10 PSI son 68947.8 PAS
 ```
 
 ## Créditos

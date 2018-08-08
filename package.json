@@ -4,7 +4,7 @@
   "description": "converter of units",
   "main": "dist/source/index.js",
   "scripts": {
-    "build": "babel source/platzom.js -d dist",
+    "build": "babel source/index.js -d dist",
     "test": "mocha"
   },
   "repository": {
